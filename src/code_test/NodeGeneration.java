@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package code_test;
 
 import java.util.ArrayList;
@@ -26,7 +21,7 @@ public class NodeGeneration {
             while (number_of_ref > 31 || number_of_ref < 5) {
                 number_of_ref = Math.abs(nd.normal_distribution(15,5));
             }
-            System.out.println("................. " + number_of_ref);
+            System.out.println("number_of_ref................. " + number_of_ref);
              
             for(int j=0; j<number_of_ref; j++){       
                 //System.out.println("number_of_ref " + number_of_ref);

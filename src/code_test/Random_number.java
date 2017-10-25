@@ -23,7 +23,6 @@ public class Random_number {
         
     }
     
-    
     public double random( double min, double max ){
         double diff = max - min;
         return min + Math.random( ) * diff;
