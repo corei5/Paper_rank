@@ -4,9 +4,13 @@ package code_test;
  * @author tourist800
  */
 public class Code_test {
+    
+    public static int NoN = 50; //Non-> Number of nodes
+    
     public static void main(String[] args) {
-        
-        NodeGeneration ng = new NodeGeneration(1000);
+        if (NoN < 31) NoN = 30;
+          
+        NodeGeneration ng = new NodeGeneration(NoN);
         
         System.out.println("Node list size: " + ng.NodeList.size());
         

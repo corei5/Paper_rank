@@ -3,14 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/E:/Java/code_test/src/code_test/Node.java</file>
-            <file>file:/E:/Java/code_test/src/code_test/AdjMatrix.java</file>
-            <file>file:/E:/Java/code_test/src/code_test/PageNode.java</file>
-            <file>file:/E:/Java/code_test/src/code_test/PageRank.java</file>
-            <file>file:/E:/Java/code_test/src/code_test/Random_number.java</file>
-            <file>file:/E:/Java/code_test/src/code_test/Code_test.java</file>
-            <file>file:/E:/Java/code_test/src/code_test/Data.java</file>
-            <file>file:/E:/Java/code_test/src/code_test/AdjacencyMatrix.java</file>
+            <file>file:/C:/java/Paper_rank-master/src/code_test/Random_number.java</file>
+            <file>file:/C:/java/Paper_rank-master/src/code_test/Code_test.java</file>
+            <file>file:/C:/java/Paper_rank-master/src/code_test/NodeGeneration.java</file>
+            <file>file:/C:/java/Paper_rank-master/src/code_test/WeightedEdge.java</file>
         </group>
     </open-files>
 </project-private>

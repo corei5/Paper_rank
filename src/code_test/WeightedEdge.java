@@ -1,5 +1,6 @@
 package code_test;
 
+import static code_test.Code_test.NoN;
 import java.util.ArrayList;
 
 
@@ -14,7 +15,7 @@ public class WeightedEdge {
         
     WeightedEdge(ArrayList <Node> NodeList){
         int size = NodeList.size();
-        array = new double[1000][1000];
+        array = new double[NoN][NoN];
         
         for(int i=0;i<size;i++){
             for(int j=0;j<size;j++){

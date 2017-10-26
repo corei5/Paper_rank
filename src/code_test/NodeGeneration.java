@@ -1,6 +1,7 @@
 package code_test;
 
 import java.util.ArrayList;
+import static code_test.Code_test.NoN;
 
 /**
  *
@@ -32,8 +33,8 @@ public class NodeGeneration {
             
                 Random_number nd1 = new Random_number();
                 int node_number = -1;
-                while (node_number < 0 || node_number >= 1000) {
-                    node_number = Math.abs(nd1.normal_distribution(500,250));
+                while (node_number < 0 || node_number >= NoN) {
+                    node_number = Math.abs(nd1.normal_distribution(NoN/2,NoN/4));
                 }
                 
                 node.SetRL(node_number,referance_score);
